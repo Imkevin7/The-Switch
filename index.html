@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Switch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div>
+    <ul>
+        <li>
+            <p>Reminders
+                <img class="imgs" src="img/onoffbg2.png" alt="" />
+                <img id="reminder" class="circle" src="img/circle.png" alt="" />
+            </p>
+        </li>
+        <li>
+            <p>Newsletters
+                <img src="img/onoffbg2.png" alt="" class="imgs" />
+                <img id="newsletters" src="img/circle.png" class="circle" alt="" class="circle" />
+            </p>
+        </li>
+    </ul>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/controls.js"></script>
+<script>
+    
+$(document).ready(function () {
+
+    $('#reminder').on('click', theSwitch);
+
+    $('#newsletters').on('click', theSwitch);
+});
+</script>
+</body>
+</html>
