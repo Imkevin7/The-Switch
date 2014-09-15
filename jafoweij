@@ -1,0 +1,13 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 54afd4c..d6b0184 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -15,7 +15,7 @@[m
+             </p>[m
+         </li>[m
+         <li>[m
+[31m-            <p>Newsletters[m
+[32m+[m[32m            <p>Newsletter[m
+                 <img src="img/onoffbg2.png" alt="" class="imgs" />[m
+                 <img id="newsletters" src="img/circle.png" class="circle" alt="" class="circle" />[m
+             </p>[m
